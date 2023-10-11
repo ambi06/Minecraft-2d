@@ -1,4 +1,4 @@
-var canvas = new fabric.Canvas('myCnavas');
+var canvas = new fabric.Canvas('myCanvas');
 block_image_width = 30;
 block_image_height = 30;
 player_y = 30;
