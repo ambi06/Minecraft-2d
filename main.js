@@ -45,7 +45,7 @@ function my_keydown(e)
 {
     keyPressed = e.keyCode;
     console.log(keyPressed);
-    if(e.shiftKey == true && keypressed == '80')
+    if(e.shiftKey == true && keyPressed == '80')
     {
         console.log("p and shift pressed togetehr");
         block_image_width = block_image_width + 10;
@@ -53,7 +53,7 @@ function my_keydown(e)
         document.getElementById("current_width").innerHTML = block_image_width;
         document.getElementById("current_height").innerHTML = block_image_height;
     }
-    if(e.shiftKey == true && keypressed == '77')
+    if(e.shiftKey == true && keyPressed == '77')
     {
         console.log("m and shift pressed together");
         block_image_width = block_image_width - 10;
@@ -111,7 +111,7 @@ function my_keydown(e)
     }
     if(keyPressed == '85')
     {
-        new_image('diffrent.png');
+        new_image('unique.png');
         console.log("u");
     }
     if(keyPressed == '67')
