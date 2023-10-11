@@ -159,7 +159,7 @@ function left()
 
 function right()
 {
-	if(player_y >=850)
+	if(player_y <=850)
     {
 		player_x = player_x + block_image_width;
 		console.log("block image width = " + block_image_width);
